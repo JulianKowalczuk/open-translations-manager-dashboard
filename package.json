@@ -1,0 +1,52 @@
+{
+  "name": "open-translations-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.6.0",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "immer": "^1.8.0",
+    "lodash": "^4.17.11",
+    "memoize-one": "^4.0.3",
+    "react": "^16.7.0",
+    "react-app-rewire-hot-loader": "^1.0.3",
+    "react-app-rewire-typescript": "^2.0.2",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "^16.7.0",
+    "react-flag-icon-css": "^1.0.24",
+    "react-hot-loader": "^4.6.3",
+    "react-redux": "^5.1.1",
+    "react-scripts": "^2.1.3",
+    "react-scripts-ts": "^4.0.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/jest": "23.3.10",
+    "@types/lodash": "^4.14.119",
+    "@types/memoize-one": "^3.1.1",
+    "@types/node": "^10.12.10",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-flag-icon-css": "^1.0.2",
+    "@types/react-redux": "^6.0.10",
+    "@types/redux-thunk": "^2.1.0",
+    "@types/webpack-env": "^1.13.6",
+    "typescript": "3.1.6"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version react-scripts-ts",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts",
+    "test": "react-app-rewired test --env=jsdom --scripts-version react-scripts-ts",
+    "eject": "react-app-rewired eject --scripts-version react-scripts-ts"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
